@@ -17,7 +17,7 @@
 // console.log("Program Ended");
 
 
-// Non-Blocking code example
+// Non-Blocking code example   
 // The second example shows that the program does not wait for file reading and proceeds to print "Program Ended" and at the same time, the program without blocking continues reading the file.
 var fs = require("fs");
 fs.readFile('input.txt', function (err, data) {
